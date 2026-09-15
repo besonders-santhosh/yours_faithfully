@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & caching
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local Secrets & Environment Variables (keep .env.example committed)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# On-demand runtime screen captures & media artifacts
+captures/
+last_capture.png
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.wav
+*.mp3
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.agents/
+
+# System & Log files
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
